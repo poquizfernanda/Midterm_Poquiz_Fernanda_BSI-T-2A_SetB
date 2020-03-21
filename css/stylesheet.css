@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.landingpage {
+        background-image: url(../img/bg-img.png);
+}
+.studeval {
+    float: right;
+    padding: 300px 50px 300px 50px;
+    text-align: center;
+    background:rgb(2, 131, 163);
+    box-shadow: 5px 5px black;
+    text-shadow: 2px 2px white;
+}
+#btn {
+    background: linear-gradient(to right bottom, rgb(26, 140, 185),rgb(127,146,206));
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: #181b1d;
+    padding: 3px;
+    border-radius: 15px;
+}
+h1 {
+    font-family: monospace;
+    color: whitesmoke;
+    text-shadow: 2px 2px #090d0e;
+    font-weight: bold;
+    
+}
+.homee {
+    padding: 100px 300px 100px 300px;
+    background: rgb(0, 101, 126);
+    
+}
+.studgrade {
+    padding: 15px;
+    background:rgb(2, 131, 163);
+    border-radius: 47px;
+    box-shadow: 18px 18px 0px #1e73ac, -18px -18px 0px #6ce5ee;
+
+}
+#title {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}#emath, #escience, #eenglish, #efilipino, #epe {
+    margin-left: 80px;
+    color: white;
+}
+#tenglish {
+    margin-left: 130px;
+     box-shadow: 2px 2px 2px 2px #090d0e;
+}
+#tmath {
+    margin-left: 146px;
+     box-shadow: 2px 2px 2px 2px #090d0e;
+}
+#tscience {
+    margin-left: 125px;
+     box-shadow: 2px 2px 2px 2px #090d0e;
+}
+#tfilipino {
+    margin-left: 129px;
+     box-shadow: 2px 2px 2px 2px #090d0e;
+}
+#tpe {
+    margin-left: 163px;
+    box-shadow: 2px 2px 2px 2px #090d0e;
+}
+#grade {
+    padding-left:170px;
+}
+#remarks {
+    padding-left: 210px;
+}
+#studrank {
+    font-weight: bold;
+    padding-top: 15px;
+}
+#btn1 {  
+   border-radius: 15px;
+   background-color: rgb(6, 36, 53);
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   padding: 3px; 
+   margin-left: 500px;
+}
+#tmath, #tenglish, #tpe, #tfilipino, #tscience {
+    text-align: center;
+}
+#ranking {
+    font-family: georgia;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+#back {
+    background-color: rgb(6, 36, 53);
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 15px;  
+    margin-left: 3%;
+}
+h4 {
+    font-size: medium;
+}
+#studname, #list, p {
+    color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body onload="getName()" class="homee">
+    <div class="studgrade">
+        <h2 id="title">Student Grade Evaluator</h2>
+        <div class="studgrades">
+            <h4 id="studname">Student Name:</h4>
+            <h4 id="list">List of Subjects:</h4>
+            <table>
+                <tr>
+                    <td><p>Subject Title</p></td>
+                    <td id="grade"><p>Grade</p></td>
+                    <td id="remarks"><p>Remarks</p></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="math"><p>Math</p></td>
+                    <td><input type="text" id="tmath"></td>
+                    <td><h3 id="emath">Evaluation</h3></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="science"><p>Science</p></td>
+                    <td><input type="text" id="tscience"></td>
+                    <td><h3 id="escience">Evaluation</h3></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="english"><p>English</p></td>
+                    <td><input type="text" id="tenglish"></td>
+                    <td><h3 id="eenglish">Evaluation</h3></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="filipino"><p>Filipino</p></td>
+                    <td><input type="text" id="tfilipino"></td>
+                    <td><h3 id="efilipino">Evaluation</h3></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="pe"><p>P.E.</p></td>
+                    <td><input type="text" id="tpe"></td>
+                    <td><h3 id="epe">Evaluation</h3></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="studrank"><p>Student Rank:</p></td>
+                    <td id="ranking"><p></p></td>
+                </tr>
+            </table>
+            <button id="btn1" onclick="evalgrade()">Evaluate</button>
+            <a href="../index.html"><button id="back">Back</button></a>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+</body>
+</html>
